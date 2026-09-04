@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>McKinney Landscaping Project Planner | North Texas Guide</title>
+
+  <meta name="description" content="An independent McKinney landscaping planning guide covering property evaluation, landscape design, planting, drainage, irrigation, installation access and maintenance.">
+
+  <style>
+    :root {
+      --navy: #142b3a;
+      --blue: #255b75;
+      --gold: #e4a72d;
+      --sand: #eee4cf;
+      --cream: #faf7ef;
+      --white: #ffffff;
+      --ink: #1d2b32;
+      --line: #cfdae0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--cream);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+    }
+
+    a {
+      color: #174e68;
+    }
+
+    a:focus-visible {
+      outline: 3px solid var(--gold);
+      outline-offset: 3px;
+    }
+
+    .container {
+      width: min(1120px, 92%);
+      margin: auto;
+    }
+
+    header {
+      color: var(--white);
+      background: var(--navy);
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 70px;
+      gap: 25px;
+    }
+
+    .brand {
+      color: var(--white);
+      font-weight: 900;
+      letter-spacing: 0.04em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    nav a {
+      color: var(--white);
+      font-size: 0.9rem;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: #ffd777;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 92px 0;
+      color: var(--white);
+      background: var(--blue);
+    }
+
+    .hero::before {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 34%;
+      height: 100%;
+      background:
+        linear-gradient(135deg, transparent 25%, rgba(228,167,45,.55) 25% 50%,
+        transparent 50% 75%, rgba(228,167,45,.32) 75%);
+      content: "";
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 790px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin: 0 0 17px;
+      padding: 7px 12px;
+      color: var(--navy);
+      background: var(--gold);
+      font-size: 0.78rem;
+      font-weight: 900;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0 0 22px;
+      font-size: clamp(2.5rem, 6vw, 5rem);
+      line-height: 1.03;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: var(--navy);
+      font-size: clamp(1.9rem, 4vw, 2.9rem);
+      line-height: 1.15;
+    }
+
+    h3 {
+      margin-top: 0;
+      color: var(--blue);
+    }
+
+    .hero-text {
+      max-width: 720px;
+      font-size: 1.12rem;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 15px 23px;
+      border-radius: 4px;
+      color: var(--navy);
+      background: var(--gold);
+      font-weight: 900;
+      text-decoration: none;
+    }
+
+    .button:hover {
+      background: #f3c252;
+    }
+
+    section {
+      padding: 70px 0;
+    }
+
+    .white {
+      background: var(--white);
+    }
+
+    .sand {
+      background: var(--sand);
+    }
+
+    .lead {
+      max-width: 850px;
+      font-size: 1.08rem;
+    }
+
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      margin-top: 35px;
+      border: 1px solid var(--line);
+    }
+
+    .summary article {
+      padding: 
